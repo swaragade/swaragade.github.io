@@ -1,10 +1,8 @@
-Suraj Waragade
-============
-
 -------------------     ----------------------------
-1 MyAddress                        email@example.com
-MyTown 1000                          @twitter_handle
-MyCountry                           1800 my-phone-nr
+Mangalmurti                        suraj_waragade@live.com
+Panchgani Road,                    
+Kudal, Jaoli, Satara               
+Maharashtra, India-415514
 -------------------     ----------------------------
 
 Education
