@@ -78,11 +78,11 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "html-5",
+      skillName: "Html-5",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css",
+      skillName: "CSS",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
@@ -165,7 +165,7 @@ const workExperiences = {
         "A DevOps professional working for Technical Release Management",
       descBullets: [
         "Part of 3 member CoE",
-        "Responsible for delivering automated solution for complete CICD"
+        "Responsible for delivering automated solutions for complete CICD"
       ]
     },
     {
