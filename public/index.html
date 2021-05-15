@@ -20,12 +20,18 @@
     <meta property="og:url" content="https://swaragade.github.io/" />
     <link rel=preload href="/static/media/Montserrat-Regular.ee653992.ttf" as="font" type="font/woff" crossorigin>
     <link rel=preload href="/static/media/Agustina.21f233e1.woff" as="font" type="font/woff" crossorigin>
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="manifest" href="manifest.json" />
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.13.0/css/all.min.css">
     <title>Suraj Waragade Portfolio</title>
   </head>
   <body>
+    <script>
+      if('serviceWorker' in navigator){
+        navigator.serviceWorker.register("/sw.js");
+      }
+
+    </script>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
   </body>

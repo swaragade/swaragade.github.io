@@ -1,24 +1,47 @@
 {
-  "short_name": "Saad Pasta Portfolio",
-  "name": "Saad Pasta Portfolio",
+  "short_name": "Suraj Waragade Portfolio",
+  "name": "Suraj Waragade Portfolio",
   "icons": [
     {
-      "src": "/favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "/fevicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
     },
     {
-      "src": "/android-chrome-192x192.png?v8=qAJ44G5Bm7",
-      "type": "image/png",
-      "sizes": "192x192"
+      "src": "/fevicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
     },
     {
-      "src": "/android-chrome-384x384.png?v8=qAJ44G5Bm7",
-      "type": "image/png",
-      "sizes": "384x384"
+      "src": "/android/android-launchericon-48-48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "/android/android-launchericon-72-72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "/android/android-launchericon-96-96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "/android/android-launchericon-144-144.png",
+      "sizes": "144-144",
+      "type": "image/png"
+    },{
+      "src": "/android/android-launchericon-192-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },{
+      "src": "/android/android-launchericon-512-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
   "display": "standalone",
   "theme_color": "#6c63ff",
   "background_color": "#ffffff"
