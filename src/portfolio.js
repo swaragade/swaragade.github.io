@@ -24,11 +24,11 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/swaragade",
   linkedin: "https://www.linkedin.com/in/surajwaragade/",
-  gmail: "suraj_waragade@live.com",
+  mail: "suraj_waragade@live.com",
   // gitlab: "https://gitlab.com/saadpasta",
   // facebook: "https://www.facebook.com/saad.pasta7",
   // medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  //stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   codechef: "http://codechef.com/users/swaragade",
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
@@ -38,7 +38,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "A MECHANICAL ENGINEER TURNED SOFTWARE ENGINNER WHO WANTS TO EXPLORE EVERY TECH STACK OUT THERE",
+  subTitle: "A MECHANICAL ENGINEER TURNED SOFTWARE DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK OUT THERE",
   skills: [
     emoji(
       "⚡ Develop complex web application backends"
@@ -100,7 +100,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Sinhgad Academy of Engineering",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/sinhgadLogo.png"),
       subHeader: "Bachelor of Engineering",
       duration: "August 2014 - May 2017",
       desc: "Majored in Mechanical Engineering"
@@ -111,7 +111,7 @@ const educationInfo = {
     },
     {
       schoolName: "Government Polytechnic Kolhapur",
-      logo: require("./assets/images/stanfordLogo.png"),
+      logo: require("./assets/images/gpkpLogo.jpg"),
       subHeader: "Diploma In Mechanical Engineering",
       duration: "Auguest 2010 - May 2013",
       //desc:
@@ -140,7 +140,7 @@ const techStack = {
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "70%"
     },
     {
       Stack: "Frontend",
@@ -159,7 +159,7 @@ const workExperiences = {
     {
       role: "Senior Software Engineer",
       company: "Infosys",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/infosysLogo.png"),
       date: "May 2018 – Present",
       desc:
         "A DevOps professional working for Technical Release Management",
@@ -171,7 +171,7 @@ const workExperiences = {
     {
       role: "Apprentice Trainee",
       company: "General Electric",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      companylogo: require("./assets/images/geLogo.gif"),
       date: "Sept 2013 – June 2014",
       desc:
         "Worked as a Mechanical Engineer, learnt Mazatrol,CNC programming"
@@ -344,7 +344,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   //number: "+92-3243454077",
-  email_address: "suraj_waragade@live.com"
+  //email_address: "suraj_waragade@live.com"
 };
 
 // Twitter Section

@@ -104,14 +104,25 @@ export default function socialMedia() {
         </a>
       ) : null}
 
-      {socialMediaLinks.stackoverflow ? (
+      {socialMediaLinks.codechef ? (
         <a
-          href={socialMediaLinks.stackoverflow}
+          href={socialMediaLinks.codechef}
           className="icon-button stack-overflow"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-stack-overflow"></i>
+          <i className="fas fa-terminal"></i>
+          <span></span>
+        </a>
+      ) : null}
+      {socialMediaLinks.mail ? (
+        <a
+          href={`mailto:${socialMediaLinks.mail}`}
+          className="icon-button google"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fas fa-at"></i>
           <span></span>
         </a>
       ) : null}
