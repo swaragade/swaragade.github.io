@@ -190,34 +190,78 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Highlights",
+  subtitle: "SOME TOOLS AND APPS WHERE I HELPED IN COMPLETION",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/codoogleLogo.jpg"),
+      projectName: "Codoogle",
+      projectDesc: "Have you heard about Sourcegraph, its a tool which allows complete search capabilities for your source code. Yes many SCM providers have this functionality present but do they allow RegEx search ?  Generally SCM providers only index default(master) branch only, so it comes in handy when you have a webapp to do this for you.",
       footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
+        // {
+        //   name: "Visit Website",
+        //   url: "http://saayahealth.com/"
+        // }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/red_hat_openshift_logo.png"),
+      projectName: "Legacy modernization",
+      projectDesc: "Converted monolith legacy webapp to Springboot microservices, hosted onto on-prem openshift cluster.",
       footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
+        // {
+        //   name: "Visit Website",
+        //   url: "http://nextu.se/"
+        // }
+      ]
+    },
+    {
+      image: require("./assets/images/reconTool.jpg"),
+      projectName: "Reconciliation tool",
+      projectDesc: "Smart standalone tool to automate merging between git branches. Its a boon when you maintain multiple repositories and release",
+      footerLink: [
+        // {
+        //   name: "Visit Website",
+        //   url: "http://nextu.se/"
+        // }
+      ]
+    },
+    {
+      image: require("./assets/images/cvstogit.png"),
+      projectName: "CVS to GIT migration",
+      projectDesc: "This involved not only migrating the source code from centralized system to distributed one, but also upgrading JDK, Maven, Libraries and even CI server.",
+      footerLink: [
+        // {
+        //   name: "Visit Website",
+        //   url: "http://nextu.se/"
+        // }
+      ]
+    },
+    {
+      image: require("./assets/images/maven_dependency_graph.png"),
+      projectName: "Reactor tool",
+      projectDesc: "Its hard to maintain dependency hierarchy in Jenkins pipeline approach, when you have huge module tree to be build. This standalone tool reads pom.xml, judges the dependency hierarchy and provides inputs to Jenkins on which job to build next.",
+      footerLink: [
+        // {
+        //   name: "Visit Website",
+        //   url: "http://nextu.se/"
+        // }
+      ]
+    },
+    {
+      image: require("./assets/images/jenkinsLogo.dms"),
+      projectName: "Jenkins plugins",
+      projectDesc: "Sometimes available plugins are not enough to complete desired task, so I've built multiple plugins to accomodate custom tasks.",
+      footerLink: [
+        // {
+        //   name: "Visit Website",
+        //   url: "http://nextu.se/"
+        // }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -230,56 +274,73 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "IBM CallForCode 2020",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Secured 3rd price in IBM CloudReady hackathon. Built a webapp which thermally scans the face, can be used in closed workspaces where employees can be scanned without any physical proximity.",
+      image: require("./assets/images/ibmCFC.jpg"),
+      footerLink: [
+        // {
+        //   name: "Certification",
+        //   url:
+        //     "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+        // }
+      ]
+    },
+    {
+      title: "Redhat accreditated Cloud developer",
+      subtitle: "Container Platform Application development and deployment",
+      image: require("./assets/images/red_hat_openshift_logo.png"),
       footerLink: [
         {
-          name: "Certification",
+          name: "Application deployment",
           url:
-            "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+            "https://drive.google.com/file/d/1Bae5JAn0Ii9mZs3o2kJZH0SLVfioz5Fp/view?usp=sharing"
         },
         {
-          name: "Award Letter",
+          name: "Container deployment",
           url:
-            "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url:
-            "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+            "https://drive.google.com/file/d/1T5vvSERRbw0Z7YxcgWp-89M1L-G2KgJP/view?usp=sharing"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+      title: "Certified Kubernetes Administrator/Developer",
+      subtitle: "Its a huge detail oriented practical exam, still undergoing throught the content. Yet to take the exam",
+      image: require("./assets/images/k8sLogo.png"),
       footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url:
-            "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
+        // {
+        //   name: "Application deployment",
+        //   url:
+        //     "https://drive.google.com/file/d/1Bae5JAn0Ii9mZs3o2kJZH0SLVfioz5Fp/view?usp=sharing"
+        // }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Infosys Certified Java Developer",
+      subtitle: "A Infosys Certified Java SE8 developer",
+      image: require("./assets/images/InfosysJavalogo.png"),
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+        // {
+        //   name: "Application deployment",
+        //   url:
+        //     "https://drive.google.com/file/d/1Bae5JAn0Ii9mZs3o2kJZH0SLVfioz5Fp/view?usp=sharing"
+        // }
+      ]
+    },
+    {
+      title: "Infosys Certified Global Agile Developer",
+      subtitle: "A Infosys Certified Agile Practitioner",
+      image: require("./assets/images/agileLogo.png"),
+      footerLink: [
+        // {
+        //   name: "Application deployment",
+        //   url:
+        //     "https://drive.google.com/file/d/1Bae5JAn0Ii9mZs3o2kJZH0SLVfioz5Fp/view?usp=sharing"
+        // }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
