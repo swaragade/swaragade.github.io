@@ -48,8 +48,6 @@ export default class Main extends Component {
           <Header />
           <Greeting />
           <Skills />
-          <StackProgress />
-          <Education />
           <WorkExperience />
           <Projects />
           <StartupProject />
@@ -58,6 +56,8 @@ export default class Main extends Component {
           <Talks />
           <Twitter />
           <Podcast />
+          <StackProgress />
+          <Education />
           <Profile />
           <Footer />
           <Top />
