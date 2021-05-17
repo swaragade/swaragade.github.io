@@ -14,8 +14,7 @@ const greeting = {
   subTitle: emoji(
     "A passionate Software Developer 🚀 having experience of building complex Web applications with Springboot / ReactJS and some other cool cloud technologies"
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1E9nJ2Lu3ZRUVsXBmCPNNONciGBKRIbZi/view?usp=sharing",
+  resumeLink:"https://drive.google.com/file/d/1E9nJ2Lu3ZRUVsXBmCPNNONciGBKRIbZi/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
