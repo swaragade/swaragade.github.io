@@ -22,6 +22,11 @@ function Header() {
   const viewBlog = blogSection.display;
   const viewTalks = talkSection.display;
 
+  function openUrlInNewTab(url) {
+    var win = window.open(url, "_blank");
+    win.focus();
+  }
+
   return (
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
@@ -61,7 +66,7 @@ function Header() {
           )}
           {viewBlog && (
             <li>
-              <a href="#blogs">Blogs</a>
+              <a href="#" onClick={() => openUrlInNewTab("https://swaragade.gitbook.io/notes/")}>Notes</a>
             </li>
           )}
           {viewTalks && (
