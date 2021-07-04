@@ -10,7 +10,7 @@ const greeting = {
   username: "Suraj Waragade",
   title: "I'm Suraj",
   subTitle: emoji(
-    "A passionate Software Developer 🚀 having experience of building complex Web applications with Springboot / ReactJS and some other cool cloud technologies"
+    "A passionate Software Developer 🚀 building complex Web applications with Springboot / ReactJS and some other cool cloud technologies"
   ),
   resumeLink:"https://drive.google.com/file/d/1E9nJ2Lu3ZRUVsXBmCPNNONciGBKRIbZi/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
