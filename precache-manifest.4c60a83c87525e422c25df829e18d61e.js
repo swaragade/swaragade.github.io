@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "e180e0c6f589a669d81d",
+    "revision": "a7964f390b04b5fc281b",
     "url": "/static/css/main.65d6ef25.chunk.css"
   },
   {
-    "revision": "e180e0c6f589a669d81d",
-    "url": "/static/js/main.f105425e.chunk.js"
+    "revision": "a7964f390b04b5fc281b",
+    "url": "/static/js/main.180ddd82.chunk.js"
   },
   {
     "revision": "914c9b54066cf377cb2c",
@@ -32,12 +32,12 @@ self.__precacheManifest = [
     "url": "/static/js/4.37a3524d.chunk.js"
   },
   {
-    "revision": "21f233e19402cc4a66866a7f31191f0d",
-    "url": "/static/media/Agustina.21f233e1.woff"
-  },
-  {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
     "url": "/static/media/Montserrat-Regular.ee653992.ttf"
+  },
+  {
+    "revision": "21f233e19402cc4a66866a7f31191f0d",
+    "url": "/static/media/Agustina.21f233e1.woff"
   },
   {
     "revision": "afe188df34d07dd922cc9d7de2d6d9ce",
@@ -112,7 +112,7 @@ self.__precacheManifest = [
     "url": "/static/media/contactMailDark.51cf7192.svg"
   },
   {
-    "revision": "71b5f48b98972425f6b1195a85144b54",
+    "revision": "cfcbf5a94b2c7cd6f8f60fe6d21a82da",
     "url": "/index.html"
   }
 ];
