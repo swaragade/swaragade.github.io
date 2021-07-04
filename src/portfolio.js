@@ -1,6 +1,4 @@
-﻿/* Change this file to get your personal Portfolio */
-
-// Summary And Greeting Section
+﻿// Summary And Greeting Section
 
 import emoji from "react-easy-emoji";
 
@@ -40,7 +38,7 @@ const skillsSection = {
   subTitle: "A MECHANICAL ENGINEER TURNED SOFTWARE DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK OUT THERE",
   skills: [
     emoji(
-      "⚡ Develop complex web application backends"
+      "⚡ Develop complex web application backends with SpringBoot"
     ),
     emoji("⚡ Currently getting my hands dirty with ReactJS and Progressive Web Applications ( PWA )"),
     emoji(
@@ -178,8 +176,6 @@ const workExperiences = {
   ]
 };
 
-/* Your Open Source Section to View Your Github Pinned Projects
-To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
@@ -195,11 +191,11 @@ const bigProjects = {
     {
       image: require("./assets/images/codoogleLogo.jpg"),
       projectName: "Codoogle",
-      projectDesc: "Have you heard about Sourcegraph, its a tool which allows complete search capabilities for your source code. Yes many SCM providers have this functionality present but do they allow RegEx search ?  Generally SCM providers only index default(master) branch only, so it comes in handy when you have a webapp to do this for you.",
+      projectDesc: "Have you heard about Sourcegraph? Its a tool which allows complete search capabilities for your source code. Yes many SCM providers have this functionality built-in but do they allow RegEx search ? Generally SCM providers index default(master) branch only, so it comes in handy when you have a webapp to do this for you.",
       footerLink: [
         // {
         //   name: "Visit Website",
-        //   url: "http://saayahealth.com/"
+        //   url: ""
         // }
         //  you can add extra buttons here.
       ]
@@ -207,22 +203,22 @@ const bigProjects = {
     {
       image: require("./assets/images/red_hat_openshift_logo.png"),
       projectName: "Legacy modernization",
-      projectDesc: "Converted monolith legacy webapp to Springboot microservices, hosted onto on-prem openshift cluster.",
+      projectDesc: "Converted a standalone monolith legacy webapp to Springboot microservices, hosted onto on-prem Openshift cluster.",
       footerLink: [
         // {
         //   name: "Visit Website",
-        //   url: "http://nextu.se/"
+        //   url: ""
         // }
       ]
     },
     {
       image: require("./assets/images/reconTool.jpg"),
       projectName: "Reconciliation tool",
-      projectDesc: "Smart standalone tool to automate merging between git branches. Its a boon when you maintain multiple repositories and release",
+      projectDesc: "Smart standalone tool to automate merging between git branches. Its a boon when you maintain multiple repositories, releases and branches",
       footerLink: [
         // {
         //   name: "Visit Website",
-        //   url: "http://nextu.se/"
+        //   url: ""
         // }
       ]
     },
@@ -233,29 +229,29 @@ const bigProjects = {
       footerLink: [
         // {
         //   name: "Visit Website",
-        //   url: "http://nextu.se/"
+        //   url: ""
         // }
       ]
     },
     {
       image: require("./assets/images/maven_dependency_graph.png"),
       projectName: "Reactor tool",
-      projectDesc: "Its hard to maintain dependency hierarchy in Jenkins pipeline approach, when you have huge module tree to be build. This standalone tool reads pom.xml, judges the dependency hierarchy and provides inputs to Jenkins on which job to build next.",
+      projectDesc: "Its hard to maintain dependency hierarchy in Jenkins Pipelines, when you have huge dependency tree to be build. This standalone tool reads pom.xml, judges the dependency hierarchy and provides inputs to Jenkins on which job to build next.",
       footerLink: [
         // {
         //   name: "Visit Website",
-        //   url: "http://nextu.se/"
+        //   url: ""
         // }
       ]
     },
     {
       image: require("./assets/images/jenkinsLogo.dms"),
       projectName: "Jenkins plugins",
-      projectDesc: "Sometimes available plugins are not enough to complete desired task, so I've built multiple plugins to accomodate custom tasks.",
+      projectDesc: "Sometimes available plugins are not enough to complete a desired task, so I've built multiple plugins to accomodate custom tasks.",
       footerLink: [
         // {
         //   name: "Visit Website",
-        //   url: "http://nextu.se/"
+        //   url: ""
         // }
       ]
     }
@@ -347,21 +343,14 @@ const achievementSection = {
 const blogSection = {
   // title: "Blogs",
   // subtitle:
-  //   "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+  //   "With Love for Developing cool stuff.",
 
   blogs: [
   //   {
-  //     url:
-  //       "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-  //     title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+  //     url: "",
+  //     title: "",
   //     description:
-  //       "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-  //   },
-  //   {
-  //     url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-  //     title: "Why REACT is The Best?",
-  //     description:
-  //       "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+  //       ""
   //   }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -377,10 +366,10 @@ const talkSection = {
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "",
+      subtitle: "",
+      slides_url: "",
+      event_url: ""
     }
   ],
   display: false // Set false to hide this section, defaults to true
@@ -390,11 +379,11 @@ const talkSection = {
 
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  subtitle: "I LOVE TO TALK ABOUT TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    ""
   ],
   display: false // Set false to hide this section, defaults to true
 };
@@ -403,7 +392,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  //number: "+92-3243454077",
+  //number: "+91-992388327777",
   //email_address: "suraj_waragade@live.com"
 };
 

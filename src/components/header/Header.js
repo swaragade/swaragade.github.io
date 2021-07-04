@@ -66,7 +66,7 @@ function Header() {
           )}
           {viewBlog && (
             <li>
-              <a href="#" onClick={() => openUrlInNewTab("https://swaragade.gitbook.io/notes/")}>Notes</a>
+              <a href="https://swaragade.github.io/" onClick={() => openUrlInNewTab("https://swaragade.gitbook.io/notes/")}>GitBook</a>
             </li>
           )}
           {viewTalks && (
